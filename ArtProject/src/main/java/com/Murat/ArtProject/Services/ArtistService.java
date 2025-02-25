@@ -20,7 +20,4 @@ public class ArtistService {
         return artistRepository.findById(id).orElse(null);
     }
 
-    public List<Artist> getAllArtists() {
-        return artistRepository.findAll();
-    }
 }
