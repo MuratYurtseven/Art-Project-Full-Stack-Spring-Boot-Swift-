@@ -1,4 +1,4 @@
-# Art-Project-Full-Stack-Spring-Boot-Swift-
+# Art Project Full Stack Spring Boot Swift
 ## Spring Boot Backend & SwiftUI Mobile App
 ### Bu proje, Java Spring Boot kullanarak geliştirilen bir backend uygulaması ile SwiftUI kullanarak geliştirilen bir mobil uygulamandır.
 
