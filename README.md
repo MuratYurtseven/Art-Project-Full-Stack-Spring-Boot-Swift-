@@ -1,4 +1,23 @@
 # Art-Project-Full-Stack-Spring-Boot-Swift-
+##Spring Boot Backend & SwiftUI Mobile App
+###Bu proje, Java Spring Boot kullanarak geliştirilen bir backend uygulaması ile SwiftUI kullanarak geliştirilen bir mobil uygulamanın entegrasyonunu göstermektedir. Uygulama, kullanıcıların çeşitli verileri yönetmelerine ve etkileşimde bulunmalarına olanak sağlar.
+
+##Teknolojiler
+###Backend:
+Java
+Spring Boot
+REST API
+Veritabanı: H2 Database (Veritabanı konsolu üzerinden yönetim)
+###Frontend (Mobil):
+SwiftUI
+iOS 14+ için uyumlu
+Kingfisher (Resimlerin indirilmesi ve önbellekleme için)
+Proje Yapısı
+###Backend:
+Spring Boot uygulaması, RESTful API'ler aracılığıyla veri sağlar ve yönetir. Kullanıcı kimlik doğrulaması ve yönetimi, veritabanı işlemleri gibi temel backend işlevleri sağlanır. H2 veritabanı kullanılarak basit veri yönetimi yapılır ve H2 konsol üzerinden veritabanı yönetimi yapılabilir.
+
+###Mobil Uygulama:
+SwiftUI ile yapılan mobil uygulama, backend API'lerinden veri alır, kullanıcı etkileşimini sağlar ve verileri kullanıcı dostu bir şekilde sunar. Uygulama ayrıca Kingfisher kütüphanesini kullanarak backend'ten gelen görselleri indirir ve önbelleğe alır.
 <img src="https://github.com/user-attachments/assets/4b99edd2-9e15-4e89-8ec2-62ce2fcd0c62" alt="Main Page" width="160" height="350">
 <img src="https://github.com/user-attachments/assets/85714e7a-4d96-4883-9577-5090beeae2ee" alt="Main Page" width="160" height="350">
 <img src="https://github.com/user-attachments/assets/0b1bbb67-5919-4ac8-a736-fe4d46773dc0" alt="Main Page" width="160" height="350">
