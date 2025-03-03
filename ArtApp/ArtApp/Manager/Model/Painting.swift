@@ -10,7 +10,7 @@ struct Painting:Codable,Hashable{
     let paintID: Int
     let name: String
     let imageURL: String
-    let description: String
+    let description: String?
     let location: Location
     let artistID: Int
     let analysis, completionDate: String

@@ -34,7 +34,7 @@ enum Endpoint {
 
 extension Endpoint: EndpointProtocol {
     var baseUrl: String {
-        return "http://localhost:8080/paintings"
+        return "http://192.168.1.83:8080/paintings"
     }
     
     var path: String {

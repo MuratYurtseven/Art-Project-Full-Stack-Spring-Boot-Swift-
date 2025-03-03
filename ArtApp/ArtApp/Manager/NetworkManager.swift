@@ -36,7 +36,7 @@ class NetworkManager{
     }
     
 
-    func getAllPaintins(page:Int,completion:@escaping(Result<[Painting],Error>) -> Void){
+    func getAllPaintins(page:Int,completion:@escaping(Result<PainintgPage,Error>) -> Void){
         let endpoint = Endpoint.getAllPaintings(page: page, size: 10)
         request(endpoint: endpoint, completion: completion)
     }
