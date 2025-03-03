@@ -3,16 +3,19 @@
 ### Bu proje, Java Spring Boot kullanarak geliştirilen bir backend uygulaması ile SwiftUI kullanarak geliştirilen bir mobil uygulamanın entegrasyonunu göstermektedir. Uygulama, kullanıcıların çeşitli verileri yönetmelerine ve etkileşimde bulunmalarına olanak sağlar.
 
 ## Teknolojiler
+
 ### Backend:
 Java
 Spring Boot
 REST API
 Veritabanı: H2 Database (Veritabanı konsolu üzerinden yönetim)
+
 ### Frontend (Mobil):
 SwiftUI
 iOS 14+ için uyumlu
 Kingfisher (Resimlerin indirilmesi ve önbellekleme için)
-Proje Yapısı
+
+## Proje Yapısı
 ### Backend:
 Spring Boot uygulaması, RESTful API'ler aracılığıyla veri sağlar ve yönetir. Kullanıcı kimlik doğrulaması ve yönetimi, veritabanı işlemleri gibi temel backend işlevleri sağlanır. H2 veritabanı kullanılarak basit veri yönetimi yapılır ve H2 konsol üzerinden veritabanı yönetimi yapılabilir.
 
